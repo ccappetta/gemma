@@ -1,7 +1,10 @@
 # Google Gemma + Boomi Local Atom
 This design lets you call a local copy of the Google Gemma large language model, from a Boomi atom installed on the same device. 
 
-You'll need a local atom setup, the scripts here should automatically downalod google gemma on the first run of the script once you've accepted the T&C's in hugging face and have setup a .env file with your huggingface access ID. 
+You'll need a local atom setup, the scripts here should automatically downalod google gemma on the first run of the script once you've accepted the T&C's in hugging face and have setup a .env file with your huggingface access token. 
+
+.env token format:
+HF_TOKEN=abc123
 
 https://huggingface.co/google/gemma-2b-it
 
