@@ -1,3 +1,5 @@
+# This is the main script callable from either terminal or the local boomi atom. the format will be: python script-path "llm prompt"
+
 import sys
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
